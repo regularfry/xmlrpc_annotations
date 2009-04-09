@@ -3,6 +3,7 @@
 # are where the options are used.
 
 begin
+  require 'rubygems'
   require 'bones'
   Bones.setup
 rescue LoadError
